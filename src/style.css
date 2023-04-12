@@ -61,6 +61,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transition: 0.3s ease;
+}
+
+.nav-ul.active {
+    left: 0;
+    overflow: hidden;
 }
 
 .nav-a {
