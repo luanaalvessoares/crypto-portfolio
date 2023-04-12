@@ -1,3 +1,10 @@
+:root {
+    --text-color: #FFFFFF;
+    --hover-color: #B4DBDB;
+    --primary: #010730;
+    --secondary: #24225A;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
@@ -5,8 +12,9 @@
 }
 
 body {
-    background-color: #010730;
-    color: white;
+    background-color: var(--primary);
+    color: var(--text-color);
+    font-family: 'Outfit', sans-serif;
 }
 
 li {
@@ -20,3 +28,27 @@ img {
 a {
     text-decoration: none;
 }
+
+/* Navbar */
+header {
+    position: relative;
+
+}
+
+.logo-wrap {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo {
+    font-size: 2.25rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: var(--hover-color);
+}
+
+
+
