@@ -64,9 +64,14 @@ header {
     transition: 0.3s ease;
 }
 
+.nav-li {
+    font-size: 2rem;
+}
+
 .nav-ul.active {
     left: 0;
     overflow: hidden;
+    z-index: 3;
 }
 
 .nav-a {
@@ -81,6 +86,11 @@ header {
     transform: translateY(-50%);
     right: 1em;
     z-index: 4;
+}
+
+.hamburger.active {
+    position: fixed;
+    top: 3.5em;
 }
 
 .bar {
