@@ -194,6 +194,19 @@ header {
     }
 }
 
+.marque-content li {
+    width: var(--marque-element-width);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.marque-content li img {
+    user-select: none;
+}
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
