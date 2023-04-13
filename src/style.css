@@ -11,7 +11,7 @@
     --marque-height: 8vh;
     --marque-elements-displayed: 4;
     --marque-element-width: calc(var(--marque-width)/var(--marque-elements-displayed));
-    --marque-animation-duration: calc(var(var(--marque-elements)*4s));
+    --marque-animation-duration: calc(var(--marque-elements)*4s);
 }
 
 *, *::before, *::after {
@@ -167,7 +167,7 @@ header {
 
 /* Company */
 .marque {
-    width: var(--marque-element-width);
+    width: var(--marque-width);
     height: var(--marque-height);
     background-color: var(--second);
     overflow: hidden;
