@@ -1,9 +1,12 @@
 :root {
     --text-color: #FFFFFF;
     --hover-color: #B4DBDB;
-    --primary: #010730;
-    --secondary: #24225A;
+    --first: #010730;
+    --second: #24225A;
+    --third: #7F7FD6;
+    --fourth: #9AD5D6;
     --outfit-font: 'Outfit', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after {
@@ -13,7 +16,7 @@
 }
 
 body {
-    background-color: var(--primary);
+    background-color: var(--first);
     color: var(--text-color);
 }
 
@@ -37,7 +40,7 @@ a {
 }
 
 .body {
-    font-family: var(--outfit-font);
+    font-family: var(--roboto-font);
     font-size: 1.115rem;
 }
 
@@ -75,7 +78,7 @@ header {
     position: fixed;
     top: 0;
     left: -100%;
-    background-color: var(--secondary);
+    background-color: var(--second);
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -125,7 +128,36 @@ header {
 
 /* Hero */
 .hero {
+    text-align: center;
+}
 
+.hero h1 {
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.hero-right img {
+    margin-top: 3em;
+}
+
+.circle-one {
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    bottom: 0;
+    user-select: none;
+    z-index: -1;
+}
+
+.circle-two {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    user-select: none;
+    z-index: -1;
 }
 
 /* Animations */
@@ -141,5 +173,25 @@ header {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+/* Reusables */
+.container {
+    max-width: 70em;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.btn {
+    background-color: var(--third);
+    color: var(--text-color);
+    padding: 1em 1.5em;
+    border-radius: 100px;
+}
 
+.ghost {
+    background: none;
+    border: 2px solid var(--fourth);
+    padding: 1em 1.5em;
+    border-radius: 100px;
+    color: var(--text-color);
+}
 
