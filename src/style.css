@@ -180,6 +180,7 @@ header {
     margin: 0 auto;
     padding: 2em 0;
 }
+
 .btn {
     background-color: var(--third);
     color: var(--text-color);
@@ -195,3 +196,14 @@ header {
     color: var(--text-color);
 }
 
+/* Media Queries */
+@media (max-width: 420px) {
+    .btn-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn {
+        margin-bottom: 1em;
+    }
+}
