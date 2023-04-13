@@ -176,6 +176,24 @@ header {
     z-index: -1;
 }
 
+.marque-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling var(--marque-animation-duration) linear infinite;
+    align-items: center;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(calc(-1*var(--marque-element-width)*var(--marque-elements)));
+    }
+}
+
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
