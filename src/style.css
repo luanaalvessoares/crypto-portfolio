@@ -208,6 +208,15 @@ header {
     user-select: none;
 }
 
+/* Buy */
+.buy {
+    text-align: center;
+}
+
+.buy p {
+    margin-bottom: 3em;
+}
+
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
@@ -242,6 +251,10 @@ header {
     padding: 1em 1.5em;
     border-radius: 100px;
     color: var(--text-color);
+}
+
+.normalizer > *+* {
+    margin-top: 1.25rem;
 }
 
 /* Media Queries */
