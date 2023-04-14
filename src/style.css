@@ -4,7 +4,9 @@
     --first: #010730;
     --second: #24225A;
     --third: #7F7FD6;
-    --fourth: #9AD5D6;
+    --fourth: #7F7FD691;
+    --fifth: #9AD5D6;
+    --sixth: #CC8C2D;
     --outfit-font: 'Outfit', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --marque-width: 100vw;
@@ -259,12 +261,20 @@ header {
     border-radius: 100px;
 }
 
+.btn:hover {
+    background-color: var(--fourth);
+}
+
 .ghost {
     background: none;
     border: 2px solid var(--fourth);
     padding: 1em 1.5em;
     border-radius: 100px;
     color: var(--text-color);
+}
+
+.ghost:hover {
+    background-color: var(--sixth);
 }
 
 .normalizer > *+* {
