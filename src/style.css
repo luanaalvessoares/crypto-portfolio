@@ -217,6 +217,20 @@ header {
     margin-bottom: 3em;
 }
 
+/* Buy two */
+.buy-two {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.buy-two p {
+    margin-bottom: 3em;
+}
+
+.buy-two img {
+    margin-top: 1.5em;
+}
+
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
