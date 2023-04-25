@@ -7,6 +7,7 @@
     --fourth: #7F7FD691;
     --fifth: #9AD5D6;
     --sixth: #CC8C2D;
+    --seventh: #AAD9D9;
     --outfit-font: 'Outfit', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --marque-width: 100vw;
@@ -232,6 +233,24 @@ header {
 .buy-two img {
     margin-top: 1.5em;
 }
+
+/* Testimonials */
+
+.reviews {
+    text-align: center;
+}
+
+.review-title {
+    color: var(--seventh);
+}
+
+.grid-item {
+    background-color: var(--second);
+    padding: 4em 2em;
+    position: relative;
+    margin-bottom: 8em;
+}
+
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
