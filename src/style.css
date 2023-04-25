@@ -240,6 +240,10 @@ header {
     text-align: center;
 }
 
+.reviews h1 {
+    margin-bottom: 2.5em;
+}
+
 .review-title {
     color: var(--seventh);
 }
@@ -251,6 +255,14 @@ header {
     margin-bottom: 8em;
 }
 
+.grid-img {
+    position: absolute;
+    top: -5.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+    mix-blend-mode: luminosity;
+}
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
