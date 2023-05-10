@@ -350,7 +350,20 @@ header {
     background-color: var(--sixth);
 }
 
+.newsletter {
+    margin: 1em 0;
+    font: 1.25rem;
+}
 
+::placeholder {
+    color: var(--text-color);
+}
+
+.page-end {
+    background: linear-gradient(to right, var(--eighth), var(--ninth));
+    width: 100%;
+    height: 1vh;
+}
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
