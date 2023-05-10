@@ -312,6 +312,18 @@ header {
     font-size: 1.25rem;
 }
 
+.icons ul {
+    display: flex;
+}
+
+.icons li {
+    margin-right: 1em;
+}
+
+.icons a:hover {
+    color: var(--fifth);
+}
+
 
 
 /* Animations */
