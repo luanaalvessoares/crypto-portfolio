@@ -324,6 +324,32 @@ header {
     color: var(--fifth);
 }
 
+.footer-input {
+    background-color: var(--second);
+    padding: 1em 6em 1em 1.5em;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    position: relative;
+}
+
+.footer-btn {
+    position: absolute;
+    top: 0;
+    left: 16em;
+}
+
+.news-wrap {
+    position: relative;
+}
+
+.footer .btn:hover {
+    background-color: var(--sixth);
+}
+
 
 
 /* Animations */
