@@ -8,6 +8,8 @@
     --fifth: #9AD5D6;
     --sixth: #CC8C2D;
     --seventh: #AAD9D9;
+    --eighth: #9ADAD6;
+    --ninth: #91D2D2;
     --outfit-font: 'Outfit', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --marque-width: 100vw;
@@ -287,6 +289,30 @@ header {
 .event .btn:hover {
     background-color: var(--sixth);
 }
+
+/* Footer */
+.footer {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 5em;
+}
+
+.footer-col ul li {
+    margin-bottom: 1em;
+}
+
+.footer-a {
+    color: var(--text-color);
+    font-weight: 200;
+}
+
+.footer-col h4 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
 
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
