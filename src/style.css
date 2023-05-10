@@ -275,6 +275,15 @@ header {
     border-radius: 37px;
 }
 
+.event .btn {
+    background-color: black;
+    font-size: 1rem;
+}
+
+.event .btn:hover {
+    background-color: var(--sixth);
+}
+
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
