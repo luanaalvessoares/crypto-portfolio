@@ -264,6 +264,17 @@ header {
     mix-blend-mode: luminosity;
 }
 
+/* Events */
+.event {
+    text-align: center;
+}
+
+.event-wrap {
+    background: linear-gradient(120deg, var(--third), var(--fifth));
+    padding: 3em;
+    border-radius: 37px;
+}
+
 /* Animations */
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
