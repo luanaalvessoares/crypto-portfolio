@@ -275,6 +275,10 @@ header {
     border-radius: 37px;
 }
 
+.event h1 {
+    margin-bottom: 1em;
+}
+
 .event .btn {
     background-color: black;
     font-size: 1rem;
