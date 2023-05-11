@@ -558,5 +558,23 @@ header {
         text-align: left;
     }
 
+    /* BUY 2  */
+    .buy-two {
+        margin-top: 5em;
+    }
+
+    .buy-two h1 {
+        margin-bottom: 0.5em;
+    }
+
+    .two-left {
+        width: 45%;
+        text-align: left;
+    }
+
+    .two-right {
+        width: 40%;
+    }
+
 
 }
