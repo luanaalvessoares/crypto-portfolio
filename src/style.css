@@ -512,5 +512,14 @@ header {
         width: 100%;
     }
 
+    /* HERO  */
+    .hero {
+        text-align: left;
+    }
+
+    .hero-left {
+        width: 40%;
+    }
+
 
 }
