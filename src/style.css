@@ -540,5 +540,23 @@ header {
         opacity: 75%;
     }
 
+    /* BUY  */
+    .buy h2 {
+        margin-top: 3em;
+    }
+
+    .buy h1 {
+        margin-bottom: 0.5em;
+    }
+
+    .buy-left {
+        width: 45%;
+    }
+
+    .buy-right {
+        width: 50%;
+        text-align: left;
+    }
+
 
 }
