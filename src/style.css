@@ -596,5 +596,22 @@ header {
         font-size: 3.5rem;
     }
 
+    /* FOOTER  */
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3em;
+    }
+    
+    .footer-a:hover {
+        text-decoration: underline;
+    }
+
+    /* REUSABLES  */
+    .h1 {
+        font-size: 4.25rem;
+        line-height: 1;
+    }
+
 
 }
