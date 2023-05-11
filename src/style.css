@@ -25,9 +25,14 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--first);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 li {
@@ -36,6 +41,7 @@ li {
 
 img { 
     max-width: 100%;
+    user-select: none;
 }
 
 a {
@@ -237,7 +243,6 @@ header {
 }
 
 /* Testimonials */
-
 .reviews {
     text-align: center;
 }
@@ -271,14 +276,14 @@ header {
     text-align: center;
 }
 
+.event h1 {
+    margin-bottom: 1em;
+}
+
 .event-wrap {
     background: linear-gradient(120deg, var(--third), var(--fifth));
     padding: 3em;
     border-radius: 37px;
-}
-
-.event h1 {
-    margin-bottom: 1em;
 }
 
 .event .btn {
@@ -292,7 +297,7 @@ header {
 
 /* Footer */
 .footer {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--outfit-font);
     margin-top: 5em;
 }
 
@@ -330,7 +335,7 @@ header {
     border-radius: 100px;
     border: 0;
     outline: 0;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--outfit-font);
     font-size: 16px;
     color: var(--text-color);
     position: relative;
@@ -350,7 +355,7 @@ header {
     background-color: var(--sixth);
 }
 
-.newsletter {
+.newsletter h4 {
     margin: 1em 0;
     font: 1.25rem;
 }
@@ -386,6 +391,13 @@ header {
     padding: 2em 0;
 }
 
+.nav-container {
+    max-width: 80em;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
 .btn {
     background-color: var(--third);
     color: var(--text-color);
@@ -413,6 +425,10 @@ header {
     margin-top: 1.25rem;
 }
 
+.hide {
+    display: none;
+}
+
 /* Media Queries */
 @media (max-width: 420px) {
     .btn-wrap {
@@ -422,6 +438,13 @@ header {
 
     .btn {
         margin-bottom: 1em;
+    }
+
+    .view {
+        font-size: 1rem;
+    }
+    .view-two {
+        font-size: 0.75rem !important;
     }
 }
 
@@ -435,7 +458,7 @@ header {
         text-align: center;
         margin-bottom: 1em;
     }
-    
+
     .ghost {
         text-align: center;
     }
