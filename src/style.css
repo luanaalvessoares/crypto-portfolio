@@ -521,5 +521,24 @@ header {
         width: 40%;
     }
 
+    /* COMPANY  */
+    .marque-fixed {
+        background-color: #24225A;
+        max-width: 70em;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .marque-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .marque-fixed img:hover {
+        opacity: 75%;
+    }
+
 
 }
