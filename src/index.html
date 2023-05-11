@@ -19,14 +19,14 @@
     <header>
         <div class="nav-container">
             <nav>
-                <div class="logo-wrap">
+                <div class="logo-wrap slide-left">
                     <a href="#" class="logo">KRYPTO</a>
                 </div>
-                <ul class="nav-ul">
-                    <li class="nav-li"><a href="#" class="nav-a">about</a></li>
-                    <li class="nav-li"><a href="#" class="nav-a">pricing</a></li>
-                    <li class="nav-li"><a href="#" class="nav-a">buy nfts</a></li>
-                    <li class="nav-li"><a href="#" class="nav-a">contact</a></li>
+                <ul class="nav-ul slide-right">
+                    <li class="nav-li"><a href="#about" class="nav-a">about</a></li>
+                    <li class="nav-li"><a href="#reviews" class="nav-a">pricing</a></li>
+                    <li class="nav-li"><a href="#event" class="nav-a">buy nfts</a></li>
+                    <li class="nav-li"><a href="#contact" class="nav-a">contact</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -41,7 +41,7 @@
         <img src="./images/ellipse2.png" class="circle-two">
         <div class="container">
             <div class="split">
-                <div class="hero-left">
+                <div class="hero-left hidden">
                     <h1 class="h1">Discover and collect NFTs</h1>
                     <p class="body">The most secure marketplace for buying and selling unique crypto assets.</p>
                     <div class="btn-wrap">
@@ -49,17 +49,17 @@
                         <a href="#" class="ghost subheading">Sell NFTs</a>
                     </div>
                 </div>
-                <div class="hero-right">
+                <div class="hero-right hidden">
                     <img src="./images/hero-comp.png" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="companny">
+    <section class="company hiddenb">
         <div class="container">
             <h2 class="subheading">Featured on</h2>
         </div>
-        <div class="marque">
+        <div class="marque" id="marque-ani">
             <div class="marque-content">
                 <li></li>
                 <li><img src="./images/tech.svg"></li>
@@ -71,8 +71,16 @@
                 <li><img src="./images/fast-shadow.svg"></li>
             </div>
         </div>
+        <div class="marque-fixed" id="marque-fixed">
+            <div class="marque-list">
+                <img src="images/tech.svg">
+                <img src="images/big-shadow.svg">
+                <img src="images/fast-shadow.svg">
+                <img src="images/forbes-shadow.svg">
+            </div>
+        </div>
     </section>
-    <section class="buy">
+    <section class="buy slide-left" id="about">
         <div class="container">
             <div class="split">
                 <div class="buy-left">
@@ -82,12 +90,12 @@
                     <h2 class="subheading">Analytics</h2>
                     <h1 class="h1">Built-in analytics to track your NFTs</h1>
                     <p class="body">Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time.</p>
-                    <a href="#" class="btn subheading">View our pricing</a>
+                    <a href="#" class="btn subheading view">View our pricing</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="buy-two">
+    <section class="buy-two slide-right">
         <div class="container">
             <div class="split">
                 <div class="two-left normalizer">
@@ -125,21 +133,21 @@
             </div>            
         </div>
     </section>
-    <section class="event">
+    <section class="event slide-left" id="event">
         <div class="container">
-            <div class="event-wrap">
+            <div class="event-wrap normalizer">
                 <h2 class="subheading">Are you ready?</h2>
                 <h1 class="h1">Be a part of the next big thing</h1>
-                <a href="#" class="btn subheading">View our pricing</a>
+                <a href="#" class="btn subheading view-two">View our pricing</a>
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section class="footer" id="contact">
         <div class="container">
             <a href="#" class="logo">KRYPTO</a>
             <div class="row">
                 <div class="footer-col">
-                    <h4>KRYPTO</h4>
+                    <h4>Krypto</h4>
                     <ul>
                         <li class="footer-li"><a href="#" class="footer-a"></a>Home</li>
                         <li class="footer-li"><a href="#" class="footer-a"></a>About</li>
