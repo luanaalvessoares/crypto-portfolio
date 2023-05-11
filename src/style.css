@@ -587,5 +587,14 @@ header {
         gap: 3em;
     }
 
+    /* EVENT  */
+    .event-wrap {
+        padding: 10em;
+    }
+
+    .event h1 {
+        font-size: 3.5rem;
+    }
+
 
 }
