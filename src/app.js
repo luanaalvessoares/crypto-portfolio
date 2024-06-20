@@ -38,11 +38,11 @@ function screenChange(e) {
     }
 }
 
-const mediaQuery = window.matchMedia('(min-width: 800px)')
+const mediaQuery = window.matchMedia('(min-width: 800px)');
 
-mediaQuery.addListener(screenChange)
+mediaQuery.addEventListener('change', screenChange);
 
-screenChange(mediaQuery)
+screenChange(mediaQuery);
 
 // Animations
 const observer = new IntersectionObserver((entries) => {

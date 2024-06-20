@@ -13,7 +13,7 @@
     --outfit-font: 'Outfit', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --marque-width: 100vw;
-    --marque-height: 8vh;
+    --marque-height: 80px;
     --marque-elements-displayed: 4;
     --marque-element-width: calc(var(--marque-width)/var(--marque-elements-displayed));
     --marque-animation-duration: calc(var(--marque-elements)*4s);
